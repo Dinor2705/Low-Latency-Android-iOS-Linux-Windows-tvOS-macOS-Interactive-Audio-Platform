@@ -1,0 +1,3 @@
+steps:
+- run: npm publish
+  if: github.event_name == 'push'
